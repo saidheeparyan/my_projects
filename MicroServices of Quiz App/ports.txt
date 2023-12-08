@@ -1,0 +1,5 @@
+eureka on 1111
+config server on 2222
+apigateway on 3333
+quiz service on 8888
+question service on 9999

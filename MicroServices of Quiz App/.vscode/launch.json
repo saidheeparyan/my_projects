@@ -1,0 +1,42 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "QuizServiceApplication",
+            "request": "launch",
+            "mainClass": "quiz.service.QuizServiceApplication",
+            "projectName": "quiz-service"
+        },
+        {
+            "type": "java",
+            "name": "QuestionServiceApplication",
+            "request": "launch",
+            "mainClass": "Questionservice.QuestionServiceApplication",
+            "projectName": "Question-service"
+        },
+        {
+            "type": "java",
+            "name": "ApiGateWayApplication",
+            "request": "launch",
+            "mainClass": "Apigateway.ApiGateWayApplication",
+            "projectName": "API-GateWay"
+        },
+        {
+            "type": "java",
+            "name": "ServerApplication",
+            "request": "launch",
+            "mainClass": "eureka.server.ServerApplication",
+            "projectName": "server"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ConfigServerApplication<config-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "config.configserver.ConfigServerApplication",
+            "projectName": "config-server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
